@@ -7,22 +7,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 <body>
-    <form id="subscribeForm">
-        <div class="bg-con">
-        </div>
-        <div class="mb-3 mt-3 pl-5 pr-5">
-            <label class="label-text" for="name">Name</label>
-            <input class="input-text" type="text" id="name" />
-            <p id="nameErrMsg"></p>
-        </div>
-        <div class="mb-3 pl-5 pr-5">
-            <label class="label-text" for="email">Email</label>
-            <input class="input-text" id="email" type="text" />
-            <p id="emailErrMsg"></p>
-        </div>
-        <div class="mb-3 mt-3 pl-5 pr-5 text-center">
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-        </div>
-    </form>
+   <div class="bg-container p-4">
+       <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/subscribe-to-us-img.png"
+            class="w-100"/>
+       <div class="subscribe-form-container d-flex flex-row justify-content-center">
+           <form id=subscribeForm class="pt-4 pb-4 w-75">
+               <div class="mb-3">
+                   <label for="name" class="input-label">NAME</label>
+                   <input type="text" class="form-control" id="name"/>
+                   <p id="nameErrMsg" class="error-message"></p>
+               </div>
+               <div class="mb-3">
+                   <label for="name" class="input-label">EMAIL</label>
+                   <input type="text" class="form-control" id="email"/>
+                   <p id="emailErrMsg" class="error-message"></p>
+               </div>
+               <div class="text-center mt-4">
+                   <button type="submit" class="btn btn-primary">Subscribe</button>
+               </div>
+           </form>
+       </div>
+   </div>
 </body>
 </html>
