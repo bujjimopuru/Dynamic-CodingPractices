@@ -11,3 +11,8 @@
     font-size: 36px;
     font-weight: 700;
 }
+
+.selected-pet{
+    font-family: "Roboto";
+    font-weight: 600;
+}
