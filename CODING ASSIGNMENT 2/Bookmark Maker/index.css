@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-color: #2d3a8c;
+    height: 20vh;
+}
+
+.hello-text {
+    font-family: "Roboto";
+    color: white;
+    font-size: 24px;
+}
+
+.jane-doe-text {
+    font-family: "Roboto";
+    color: white;
+    font-size: 28px;
+}
+
+.bookmark-container {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.Bookmark-text {
+    font-family: "Roboto";
+    color: #323f4b;
+    font-size: 24px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.site-container {
+    background-color: #f5f7fa;
+    border-radius: 12px;
+}
+
+.site-input-label {
+    width: 100%;
+    margin: 20px;
+}
+
+.site-input {
+    width: 80%;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #21396c;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Bookmark-list {
+    background-color: #f5f7fa;
+    border-radius: 12px;
+    margin-top: 30px;
+    padding: 10px;
+}
